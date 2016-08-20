@@ -5,7 +5,7 @@ date:   2016-08-15 01:23:32
 categories: iOS高级
 ---
 
-##  绘图
+#  绘图
 
 iOS的绘图框架有
 
@@ -28,6 +28,16 @@ Core Animation 提供了强大的动画效果
 > OpenGL ES
 
 OpenGL 的子集  兼容多个平台
+
+## 视图绘制周期
+
+
+## 视图的绘制和布局
+
+
+# 自定义视图绘制
+
+大部分自定义视图都是用UIKit 或 Core Graphics 实现的
 
 
 
