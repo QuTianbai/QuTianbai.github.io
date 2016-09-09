@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to React Native!"
 date:   2016-09-01 01:23:32
-categories: React Native
+categories: ReactNative
 ---
 
 # 搭建开发环境
