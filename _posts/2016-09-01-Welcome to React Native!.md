@@ -82,6 +82,8 @@ The current contents of /usr/local are bin Cellar etc Frameworks Homebrew includ
 执行下面3到终端命令
 在终端输入:
 
+注：第一个会删除所有Git目录 建议别用
+
 ```
 sudo rm -rf /usr/local/.git
 ```
