@@ -386,3 +386,9 @@ User defaults from command line:
 
 你已经成功运行并修改了你的第一个React Native应用。
 
+#### 参考资料
+
+[知乎](http://www.zhihu.com/question/35928898) 
+
+[RN中文](http://reactnative.cn/docs/0.31/getting-started.html)
+
