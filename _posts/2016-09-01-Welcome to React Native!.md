@@ -244,10 +244,12 @@ sudo chown -R `whoami` /usr/local
 
 React Native目前需要Xcode 7.0 或更高版本。你可以通过App Store或是到Apple开发者官网上下载。这一步骤会同时安装Xcode IDE和Xcode的命令行工具。
 
-虽然一般来说命令行工具都是默认安装了，但你最好还是启动Xcode，并在Xcode | Preferences | Locations菜单中检查一下是否装有某个版本的Command Line Tools。Xcode的命令行工具中也包含一些必须的工具，比如git等。
+虽然一般来说命令行工具都是默认安装了，但你最好还是启动Xcode，并在Xcode - Preferences - Locations菜单中检查一下是否装有某个版本的Command Line Tools。Xcode的命令行工具中也包含一些必须的工具，比如git等。
 
 ## 推荐安装的工具
+
 #### Watchman
+
 Watchman是由Facebook提供的监视文件系统变更的工具。安装此工具可以提高开发时的性能（packager可以快速捕捉文件的变化从而实现实时刷新）
 
  在终端输入:
