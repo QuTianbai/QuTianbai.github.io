@@ -1,47 +1,44 @@
-permalink: /:year/:month/:day/:title.html
-paginate: 10
-markdown: redcarpet
+# Site settings
+title: 曲天白的技术博客
+email: qutianbai@icloud.com
+description: > #曲天白的技术博客
+baseurl: "http://qutianbai.com" # the subpath of your site, e.g. /blog/
+url: "http://qutianbai.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:
 
-# 作者信息
-author: 
-  name: Anya Lin
-  email: lay.1010@hotmail.com
-  link: http://painterlin.com
-  weibo: http://weibo.com/orangeissweet
-  github: http://github.com/lay1010
-  music: http://site.douban.com/linanya
-  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
+# Build settings
+#markdown: kramdown
+permalink: /:year/:month/:day/:title.html   #博文的固定链接
+paginate: 10                                #分页时每页博文数量
+author:                                     #自定义常亮
+  name: qutianbai
+  email: qutianbai@icloud.com
+  jianshu: http://www.jianshu.com/users/55c8fdc3c6e7/
+title: 曲天白的技术博客                             #自定义常量
 
-# 站点信息
-title: 林安亚的博客
-description: My personal blog
-url: http://painterlin.com
-rss_url: /pages/atom.xml
+# avatar头像及Favicon
+avatar: http://ooo.0o0.ooo/2016/06/18/576623de132f5.jpg
+#favicon: http://ooo.0o0.ooo/2016/06/18/576623de132f5.jpg
 
-# gavatar头像及Favicon
-gavatar: /public/img/deer3.png
-favicon: /public/img/deer3.png
+locals:                                     #自定义常量
+  tags: 标签
+  about: 关于
+active: 技术                                 #自定义常量
+subscribe_rss: /pages/atom.xml              #订阅地址
+markdown: kramdown                         #markdown解释器
 
 # google analytics 设置
-ga:
-  id: UA-54262064-1 
-  url: painterlin.com
+#ga:
+#  id:
+#  url:
+#
+
+# baidu analytics 设置
+
+ba:
+    src: //hm.baidu.com/hm.js?1565b8c9b20889984cbd6f6e93323a55
 
 # disqus 设置
 disqus:
-  shortname: painterlin
-
-# 主题设置，自动激活某个标签
-active: 读书
-
-# 首页除了最新文章外显示分类
-cates: 
-  - Optimization
-  - LaTeX
-
-# 中文本地化
-locals:
-  tags: 标签
-  about: 关于
-  newest: 最新文章
-  archive: 归档
+  shortname: tianbai
