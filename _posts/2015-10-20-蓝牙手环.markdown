@@ -3,7 +3,6 @@ layout: post
 title:  "蓝牙手环"
 date:   2015-10-20 01:23:32
 categories: iOS高级
-tags: iOS
 ---
 # iOS的蓝牙数据接收以及发送
 1. 名词：Central（中心设备）、Peripheral（外围设备）、advertising（广告）、Services（服务）、Characteristic（特征）
