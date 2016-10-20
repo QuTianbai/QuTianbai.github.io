@@ -1,11 +1,15 @@
 ---
 layout: post
 title:  "Welcome to React Native!"
-date:   2016-09-01 01:23:32
+date:   2016-09-09 01:23:32
 categories: ReactNative
 ---
 
+
+
 # 搭建开发环境
+
+# 笔者建议 git的时候  全程VPN
 
 #### Homebrew
 
@@ -345,7 +349,7 @@ To run your app on Android:
 ```
 此时就生成了 `android` `iOS` 两端程序
 
-![](/assets/postImages/ios/Welcome to React Native/QQ20160909-0@2x.png)
+![](http://ooo.0o0.ooo/2016/10/19/580806d19d891.png)
 
 然后在终端输入:
 
@@ -375,12 +379,11 @@ User defaults from command line:
 终端出现实时build 状态
 
 
-![](/assets/postImages/ios/Welcome to React Native/QQ20160909-1@2x.png
-)
+![](http://ooo.0o0.ooo/2016/10/19/580806fe6e591.png)
 
 模拟器上会出现:
 
-![](/assets/postImages/ios/Welcome to React Native/Untitled.gif)
+![](http://p1.bpimg.com/4851/551b5f502d525ab8.gif)
 
 ## 修改项目
 现在你已经成功运行了项目，使用你喜欢的编辑器打开index.ios.js并随便改上几行。
