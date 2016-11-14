@@ -1,44 +1,44 @@
-# Site settings
-title: 曲天白的技术博客
-email: qutianbai@icloud.com
-description: > #曲天白的技术博客
-baseurl: "http://qutianbai.com" # the subpath of your site, e.g. /blog/
-url: "http://qutianbai.com" # the base hostname & protocol for your site
-twitter_username:
-github_username:
+title: Your awesome title
+email: your-email@domain.com
+description: description
+baseurl: /Jekyll-Avalon
+url: http://joshuaavalon.github.io
+twitter_username: joshuaavalon
+github_username:  joshuaavalon
+
+sass:
+  style: compressed
+
+paginate: 12
+paginate_path: "/:num/"
+
+author_img_s: /img/author_s.png
+author_img: /img/author.png
+
+navigation:
+  - text: Home
+    url: /
+  - text: Categories
+    url: /categories.html
+  - text: Tags
+    url: /tags.html
+
+read_more: Read More
+env: production
+minify_html: false # Set to true only when it is production. Increase significant build time.
 
 # Build settings
-#markdown: kramdown
-permalink: /:year/:month/:day/:title.html   #博文的固定链接
-paginate: 10                                #分页时每页博文数量
-author:                                     #自定义常亮
-  name: qutianbai
-  email: qutianbai@icloud.com
-  jianshu: http://www.jianshu.com/users/55c8fdc3c6e7/
-title: 曲天白的技术博客                             #自定义常量
+markdown: kramdown
 
-# avatar头像及Favicon
-avatar: http://ooo.0o0.ooo/2016/06/18/576623de132f5.jpg
-#favicon: http://ooo.0o0.ooo/2016/06/18/576623de132f5.jpg
+sticky: sticky # Tag used for sticky post
+sticky_count: 3 # Number of sticky post shown
 
-locals:                                     #自定义常量
-  tags: 标签
-  about: 关于
-active: 技术                                 #自定义常量
-subscribe_rss: /pages/atom.xml              #订阅地址
-markdown: kramdown                         #markdown解释器
-
-# google analytics 设置
-#ga:
-#  id:
-#  url:
-#
-
-# baidu analytics 设置
-
-ba:
-    src: //hm.baidu.com/hm.js?1565b8c9b20889984cbd6f6e93323a55
-
-# disqus 设置
-disqus:
-  shortname: tianbai
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
