@@ -1,22 +1,17 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="baidu-site-verification" content="w9Akh6dPe4" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<!--[if lte IE 8]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
-
-<title>{{ page.title }} | {{ site.title }}</title>
-<meta name="author" content="{{ site.author.name }}">
-{% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}">
-{% endif %}
-
-{% if page.description  %}
-  <meta name="description " content="{{ page.description  }}">
-{% endif %}
-
-<link rel="shortcut icon" href="{{ site.favicon }}" />
-
-<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-
-<link href="/pages/rss.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
-
-
+<header>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container"><a href="#" data-activates="nav-bar" class="button-collapse"><i class="material-icons">menu</i></a></div>
+            <ul class="right hide-on-med-and-down ">
+                {% for link in site.navigation %}
+                {% if page.url == link.url %}<li class="active">{% else %}<li>{% endif %}<a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
+                {% endfor %}
+            </ul>
+            <ul class="side-nav" id="nav-bar">
+                {% for link in site.navigation %}
+                {% if page.url == link.url %}<li class="active">{% else %}<li>{% endif %}<a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</header>
