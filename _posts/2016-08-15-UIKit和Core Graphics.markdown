@@ -31,6 +31,9 @@ OpenGL 的子集  兼容多个平台
 
 ## 视图绘制周期
 
+* 在UIView中，重写 `- (void)drawRect:(CGRect)rect` 可以绘制图形，且此方法一般情况下只会画一次.也就是说这个`- (void)drawRect:(CGRect)rect`方法一般情况下只会被掉用一次。
+* 当某些情况下想要手动重画这个View,只需要掉用[self setNeedsDisplay]方法即可。
+* 
 
 ## 视图的绘制和布局
 
