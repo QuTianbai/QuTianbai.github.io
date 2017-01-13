@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript 基础（一）"
 date:   2017-01-13 01:23:32
-categories: JavaScript基础
+categories: JavaScript
 ---
 
 ## 变量
