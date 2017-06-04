@@ -5,13 +5,13 @@ date:   2017-06-04 01:23:32
 categories: iOS高级
 ---
 
-## BaseModel 请求框架
+# BaseModel 请求框架
 
 写了一个实例化请求框架 (基本功能已经实现，带添加其他功能)
 
 github地址：[点击下载](https://github.com/QuTianbai/BaseModel)
 
-#### DKRequsetModel
+## DKRequsetModel
 
 请求类型
 `- (DKHTTPMethod)HTTPMethod`
@@ -37,25 +37,25 @@ github地址：[点击下载](https://github.com/QuTianbai/BaseModel)
 是否使用KeyMap
 `- (BOOL)enableKeyMapManager`
 
-#### DKResponseModel
+## DKResponseModel
 
 添加映射
 `- (void)addManualMappingDict:(NSDictionary *)dict`
 
 
-### DKKeyMapManager 默认形态
+## DKKeyMapManager 默认形态
 
-#### 编码时(模型转字典)
+### 编码时(模型转字典)
 
 在原来大写字母前加@"_",并且全部转换为小写字母
 `+ (NSString *)encodeKey:(NSString *)originalKey`
 
-#### 解码时(字典转模型)
+### 解码时(字典转模型)
 
 去除@"_",首字母小写，其他单词首字母大写
  `+ (NSString *)decodeKey:(NSString *)originalKey`
 
-参考文献：
+##参考文献：
 
 [iOS网络框架－AFNetworking3.1.0源码解读](http://www.jianshu.com/p/c36159094e24)
 
