@@ -5,7 +5,11 @@ date:   2017-06-04 01:23:32
 categories: iOS高级
 ---
 
-## BaseModel
+## BaseModel 请求框架
+
+写了一个实例化请求框架 (基本功能已经实现，带添加其他功能)
+
+github地址：[点击下载](https://github.com/QuTianbai/BaseModel)
 
 #### DKRequsetModel
 
