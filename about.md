@@ -26,7 +26,7 @@ I’m a single-dog.  But codes and godgirl are my favorite.  Life is colorful
 	}
 </script>
 
-<p>邮箱：qutianbai@icloud.com &emsp;<a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：qutianbai</a><img id="img1" src="http://omjh2j5h3.bkt.clouddn.com/kangweix.png" style="display:none;"  width="128" height="128">&emsp;
+<p>邮箱：qutianbai@icloud.com &emsp;<a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：qutianbai</a><img id="img1" src="https://i.loli.net/2017/07/19/596f689b2077d.jpg" style="display:none;"  width="128" height="128">&emsp;
 
 <p>
 <a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  

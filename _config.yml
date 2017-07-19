@@ -1,5 +1,5 @@
 # Basic
-title: 曲天白的技术博客
+title: 曲天白
 subtitle: 自留地
 description: 欢迎来到我的个人网站~
 # 头像里面的标题
@@ -12,7 +12,7 @@ url: "http://qutianbai.com"
 comment:
     provider: duoshuo
     duoshuo:
-     short_name: robotkang
+     short_name: 曲天白
 
 # Social
 social:
