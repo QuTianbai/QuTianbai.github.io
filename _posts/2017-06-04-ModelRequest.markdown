@@ -2,7 +2,7 @@
 layout: post
 title:  "ModelRequest"
 date:   2017-06-04 01:23:32
-categories: iOS高级
+tag: iOS高级
 ---
 
 # BaseModel 请求框架

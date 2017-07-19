@@ -2,7 +2,7 @@
 layout: post
 title:  "不用微信SDK唤起微信支付"
 date:   2015-11-03 01:23:32
-categories: 热门技术
+tag: 热门技术
 ---
 
 ## 要想知道如何不用微信SDK支付，那么咱们先看看微信SDK到底做了什么

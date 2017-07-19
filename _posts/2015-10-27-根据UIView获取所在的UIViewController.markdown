@@ -3,7 +3,7 @@ layout: post
 title:  "iOS中如何根据UIView获取所在的UIViewController
 "
 date:   2015-10-27 01:23:32
-categories: iOS基础
+tag: iOS基础
 ---
 
 ## 简述

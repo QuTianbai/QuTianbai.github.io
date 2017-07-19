@@ -2,7 +2,7 @@
 layout: post
 title:  "动态UITableView 截图"
 date:   2016-10-15 01:23:32
-categories: iOS高级
+tag: iOS高级
 ---
 
 # 需求

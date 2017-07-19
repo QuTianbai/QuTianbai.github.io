@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to React Native!"
 date:   2016-09-09 01:23:32
-categories: ReactNative
+tag: ReactNative
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "解决xcode升级插件失效"
 date:   2015-04-27 01:23:32
-categories: iOS基础
+tag: iOS基础
 ---
 
 在终端执行 `defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID`

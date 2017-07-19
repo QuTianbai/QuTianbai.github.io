@@ -2,7 +2,7 @@
 layout: post
 title:  "APNS and LocalNotification"
 date:   2016-06-27 01:23:32
-categories: iOS高级
+tag: iOS高级
 ---
 
 ## 简述

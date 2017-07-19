@@ -2,7 +2,7 @@
 layout: post
 title:  "System Sound Services"
 date:   2016-06-11  01:23:32
-categories: iOS高级
+tag: iOS高级
 ---
 
 ## System Sound Services 播放音效
