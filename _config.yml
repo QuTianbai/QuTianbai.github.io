@@ -1,44 +1,77 @@
-# Site settings
+# Basic
 title: 曲天白的技术博客
-email: qutianbai@icloud.com
-description: > #曲天白的技术博客
-baseurl: "http://qutianbai.com" # the subpath of your site, e.g. /blog/
-url: "http://qutianbai.com" # the base hostname & protocol for your site
-twitter_username:
-github_username:
+subtitle: 自留地
+description: 欢迎来到我的个人网站~
+# 头像里面的标题
+avatarTitle: tianbai
+# 头像里面的描述
+avatarDesc: Objective-C/iOS/C
+url: "http://qutianbai.com"
 
-# Build settings
-#markdown: kramdown
-permalink: /:year/:month/:day/:title.html   #博文的固定链接
-paginate: 10                                #分页时每页博文数量
-author:                                     #自定义常亮
-  name: qutianbai
-  email: qutianbai@icloud.com
-  jianshu: http://www.jianshu.com/users/55c8fdc3c6e7/
-title: 曲天白的技术博客                             #自定义常量
+# Comment
+comment:
+    provider: duoshuo
+    duoshuo:
+     short_name: robotkang
 
-# avatar头像及Favicon
-avatar: http://ooo.0o0.ooo/2016/06/18/576623de132f5.jpg
-#favicon: http://ooo.0o0.ooo/2016/06/18/576623de132f5.jpg
+# Social
+social:
+    weibo: 123456789
+    weixing: qutianbai 
+    github: QuTianBai
+    # twitter: 
+    mail: qutianbai@icloud.com
+    csdn: 
 
-locals:                                     #自定义常量
-  tags: 标签
-  about: 关于
-active: 技术                                 #自定义常量
-subscribe_rss: /pages/atom.xml              #订阅地址
-markdown: kramdown                         #markdown解释器
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 1565b8c9b20889984cbd6f6e93323a55 
 
-# google analytics 设置
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
 #ga:
-#  id:
-#  url:
+# id: UA-84134159-3   
+#  host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
 #
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/MengZheK/kangblog.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
-# baidu analytics 设置
 
-ba:
-    src: //hm.baidu.com/hm.js?1565b8c9b20889984cbd6f6e93323a55
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
 
-# disqus 设置
-disqus:
-  shortname: tianbai
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: 
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}   
+    - {title: 留言, description: liuyan, url: '/liuyan'}
+    - {title: 资源, description: ziyuan, url: '/ziyuan'}
+    - {title: 关于我, description: about, url: '/about'}
+
+          
+    
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
+
+
