@@ -55,7 +55,7 @@ title: 留言板「MESSAGE」
 
 <script>
 	var	playlist = [
-{title:"My All",artist:"浜崎あゆみ",mp3:"http://music.163.com/outchain/player?type=2&id=176043&auto=1&height=66",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
+{title:"My All",artist:"浜崎あゆみ",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/%E6%B5%9C%E5%B4%8E%E3%81%82%E3%82%86%E3%81%BF%20-%20MY%20ALL.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
 {title:"Try Everything",artist:"Shakira",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Shakira%20-%20Try%20Everything.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
 {title:"Victory",artist:"Two Steps From Hell",mp3:"http://omjh2j5h3.bkt.clouddn.com/music/Two%20Steps%20From%20Hell%20-%20Victory.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
 {title:"Monody",artist:"TheFatRat,Laura Brehm",mp3:"http://omjh2j5h3.bkt.clouddn.com/TheFatRat,Laura%20Brehm%20-%20Monody.mp3",cover:"http://p3.music.126.net/1odRfg3HXWmYw02EMXKRKQ==/116548232557498.jpg?param=106x106",},
