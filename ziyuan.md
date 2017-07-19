@@ -8,17 +8,9 @@ title: 资源「USEFUL LINKS」
 
 
 <P>       
-<h3> Personal Website</h3>   
+<h3> 暂无资源</h3>   
 <p>
 
-<img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E9%85%8D%E8%89%B2%E5%99%A8.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/college/" target="_blank">大学|四年</a>- 记青春年华.&nbsp;&nbsp;
-<img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E4%BC%98%E7%95%8C%E7%BD%91.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/college/" style="color:#DC143C" target="_blank">二三好友</a>- 似水流年 & FLAG&nbsp;&nbsp;
-<img src="http://omjh2j5h3.bkt.clouddn.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/book/" style="color:#DC143C" target="_blank">个人书单</a>-  FLAG&nbsp;&nbsp;
-<img src="http://omjh2j5h3.bkt.clouddn.com/icon/%E5%AD%A6UI%E7%BD%91.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="http://robotkang.xyz" style="color:#DC143C" target="_blank">Company</a>- FLAG
 
 
 

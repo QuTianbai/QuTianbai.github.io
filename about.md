@@ -15,9 +15,13 @@ I’m a single-dog.  But codes and godgirl are my favorite.  Life is colorful
 </p>
 </div>         
 
-<h3> PastTime</h3>   
-
-
+<h3> PastTime</h3>  
+ 
+<div style="color:#008B00">
+<p>
+没有十全十美的文章，如同不存在彻头彻尾的绝望，重要的是保持住一颗捣腾不安的心以及对知识的渴望与找寻 .....
+</p>
+</div> 
 
 <h3> 联系方式 </h3>         
 <script>
