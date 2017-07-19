@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
         }
     }
     else {
-        showMessage('欢迎' + visitor + '来到亢志军的个人博客《' + title + '》', 6000);
+        showMessage('欢迎' + visitor + '来到曲天白的个人博客《' + title + '》', 6000);
     }
     $(".spig").animate({
         top: $(".spig").offset().top + 300,
