@@ -55,7 +55,7 @@ github地址：[点击下载](https://github.com/QuTianbai/BaseModel)
 去除@"_",首字母小写，其他单词首字母大写
  `+ (NSString *)decodeKey:(NSString *)originalKey`
 
-##参考文献：
+## 参考文献：
 
 [iOS网络框架－AFNetworking3.1.0源码解读](http://www.jianshu.com/p/c36159094e24)
 
