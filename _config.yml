@@ -1,77 +1,31 @@
-# Basic
-title: 曲天白
-subtitle: 自留地
-description: 欢迎来到我的个人网站~
-# 头像里面的标题
-avatarTitle: tianbai
-# 头像里面的描述
-avatarDesc: Objective-C/iOS/C
-url: "http://qutianbai.com"
+markdown: kramdown
+highlighter: pygments
+permalink: /posts/:title.html
+excerpt_separator: "<!-- more -->"
 
-# Comment
-comment:
-    provider: duoshuo
-    duoshuo:
-     short_name: 曲天白
+github: panxw
+author: "潘学文"
+email: winfirm#163.com
+name: "潘学文个人博客"
+url: http://www.panxw.com
+domain: www.panxw.com
+all_categories: [
+["android", "Android开发","/posts/android.html"], 
+["program", "软件编程","/posts/program.html"],
+["web", "Web建站","/posts/web.html"], 
+["linux", "Linux相关","/posts/linux.html"],
+["read", "读书笔记","/posts/read.html"], 
+["other", "杂记","/posts/other.html"],
+["about", "关于","/about.html"]
+]
 
-# Social
-social:
-    weibo: 123456789
-    weixing: qutianbai 
-    github: QuTianBai
-    # twitter: 
-    mail: qutianbai@icloud.com
-    csdn: 
+paginate: 8
+paginate_path: "posts/page:num"
+timezone: America/Los_Angeles
 
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 1565b8c9b20889984cbd6f6e93323a55 
+collections:
+  docs:
+    output: true
 
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-#ga:
-# id: UA-84134159-3   
-#  host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/MengZheK/kangblog.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
-
-permalink: /:year/:month/:title/
-# Format
-highlighter: rouge
-
-textColor: #FF0000
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: 
-
-# The blog button should not be removed.
-blog_button:
-    title: 博客主页
-
-# Navigation buttons in the front page.s
-nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}   
-    - {title: 留言, description: liuyan, url: '/liuyan'}
-    - {title: 资源, description: ziyuan, url: '/ziyuan'}
-    - {title: 关于我, description: about, url: '/about'}
-
-          
-    
-
-# Pagination
-gems: [jekyll-paginate]
-paginate: 20
-paginate_path: "page/:num/"
-
-
+gems:
+ - jekyll-paginate
