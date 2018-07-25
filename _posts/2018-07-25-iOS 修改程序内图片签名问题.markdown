@@ -7,5 +7,8 @@ tag: iOS逆向
 
 替换修改程序.app里面的car，签名出现：resource fork, Finder information, or similar detritus not allowed 错误
 
+![WX20180725-215547@2x](https://i.loli.net/2018/07/25/5b588188c89b8.png)
+
+
 解决：分别使用终端进入工程目录与DerivedData目录执行 "xattr -rc ." 
 
