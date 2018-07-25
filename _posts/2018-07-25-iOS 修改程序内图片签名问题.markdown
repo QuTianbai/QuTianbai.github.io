@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "iOS 修改程序内图片签名问题"
+date:   2018-07-25 01:23:32
+tag: iOS逆向
+---
+
+替换修改程序.app里面的car，签名出现：resource fork, Finder information, or similar detritus not allowed 错误
+
+解决：分别使用终端进入工程目录与DerivedData目录执行 "xattr -rc ." 
+
